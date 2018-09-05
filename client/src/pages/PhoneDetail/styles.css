@@ -1,0 +1,9 @@
+.ant-card.image-wrap .ant-card-body {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .ant-card.image-wrap {
+        margin-bottom: 20px;
+    }
+}

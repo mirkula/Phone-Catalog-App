@@ -1,0 +1,14 @@
+.phone-list .list-item {
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.phone-list .list-item:hover {
+  background-color: rgba(0, 0, 0, 0.01);
+}
+
+@media screen and (min-width: 720px) {
+    .phone-list .list-item {
+        padding: 20px;
+    }
+}
