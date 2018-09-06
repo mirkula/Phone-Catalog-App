@@ -5,10 +5,21 @@
 
 .phone-list .list-item:hover {
   background-color: rgba(0, 0, 0, 0.01);
+  cursor: pointer;
 }
 
 @media screen and (min-width: 720px) {
     .phone-list .list-item {
         padding: 20px;
+    }
+}
+
+.ant-card.image-wrap .ant-card-body {
+    display: none;
+}
+
+@media screen and (max-width: 720px) {
+    .ant-card.image-wrap {
+        margin-bottom: 20px;
     }
 }

@@ -1,10 +1,5 @@
-import { phoneList, currentRecord } from '../actionTypes';
+import { phoneList } from '../actionTypes';
 import { getPhoneList } from '../../services/phones';
-
-export const setRecord = record => ({
-    type: currentRecord,
-    record
-});
 
 export const phoneListAction = (list, loading) => ({
     type: phoneList,
